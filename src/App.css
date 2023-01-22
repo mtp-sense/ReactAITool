@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.options-heading {
+  font-family: Raleway;
+}
+.options-grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+.option-grid-child {
+  background: #213547;
+  border: 1px solid #213547;
+  border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #ffd;
+  transition: all 350ms;
+}
+.option-grid-child:hover {
+  background: #131f2a;
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.option-grid-child h3 {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.option-grid-child p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+}
+.translation-div-main {
+  display: flex;
+  flex-direction: column;
+}
+.translation-text-area {
+  font-family: Raleway;
+  font-size: 14px;
+}
+.translate-btn {
+  font-family: Raleway;
+  font-size: 20px;
+  background: #ffd;
+  border: 1px solid #213547;
+  border-radius: 10px;
+  margin-top: 10px;
+  outline: none;
+  transition: all 300ms;
+}
+.translate-btn:hover {
+  background-color: #213547;
+  border: 1px solid #ffd;
+  outline: none;
+  color: #ffd;
+}
